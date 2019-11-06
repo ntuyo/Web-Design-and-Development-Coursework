@@ -1,0 +1,246 @@
+body{
+    margin: 20px;
+    background-color: #F1C2BF;
+
+}
+
+.boxed{
+    border: 10px solid #c29175;
+    padding: 10px;
+    margin: 10px;
+    alignment: center;
+    display: flex;
+    width: 70%;
+}
+
+.boxed-text-black{
+    display: flex;
+    flex-direction: column;
+    border: 10px solid #353535;
+    padding: 10px;
+    margin: 10px;
+    alignment: center;
+}
+.boxed-text-black-no-width{
+     display: flex;
+     flex-direction: column;
+     border: 10px solid #353535;
+     padding: 10px;
+     margin: 10px;
+     alignment: center;
+ }
+.uncolored-box
+{
+    display: flex;
+    flex:33;
+    flex-direction: column;
+    width: 100%;
+    border: 10px transparent;
+    padding: 20px;
+    margin: 30px;
+    align-items: center;
+}
+.Aligner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Aligner-item {
+    max-width: 50%;
+}
+
+.Aligner-item--top {
+    align-self: flex-start;
+}
+
+.Aligner-item--bottom {
+    align-self: flex-end;
+}
+
+
+
+
+h1{
+    font-family: "Yuppy TC", sans-serif;
+    text-align: center;
+    color: #363436;
+}
+
+h2{
+    font-family: "Yuppy TC", cursive;
+    text-align: center;
+    color: #555555;
+}
+
+h3 {
+    font-family: "Klee", sans-serif;
+    color: #363436;
+    text-align: center;
+}
+
+p{
+    font-family: "PingFang HK", sans-serif;
+    font-size: 15px;
+    color: #363436;
+}
+
+ol {
+    font-family: "PingFang HK", sans-serif;
+    list-style-position: inside;
+}
+ul {
+    font-family: "PingFang HK", sans-serif;
+    list-style-position: inside;
+}
+li{
+    text-align: left;
+    list-style-position: outside;
+}
+table {
+    border: 1px black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    align-self: center;
+    display: flex;
+}
+
+tr {
+    background-color: whitesmoke;
+    color: black;
+    font-size: 20px;
+    display: flex;
+}
+th{
+    background-color: whitesmoke;
+    color: black;
+    font-size: 20px;
+    font-family: "Yuppy TC", sans-serif;
+    display: flex;
+}
+.button{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #80582f;
+    font-size: 15px;
+}
+.button-clicked{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.list
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+/* The following was copied and altered from ww3 schools and used for my buttons */
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    alignment: center;
+}
+
+.container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:#f7f0f5;
+    color: white;
+    font-size: 15px;
+    font-family: "Yuppy TC", sans-serif;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.font-medium{
+    font-size: 16px;
+}
+
+
+hr {
+    color: white;
+    background-color: white;
+    height: 5px;
+    border: 7px;
+}
+img {
+    alignment: center;
+}
+.img-padding{
+    alignment: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.column{
+    flex-direction: row-reverse;
+}
+
+/* colors */
+
+.brown-green{
+    background-color:#8f857d;
+}
+.white{
+    background-color: #ffffff;
+}
+.off-pink{
+    background-color:#f7f0f5;
+}
+.lightpastelpink{
+    background-color: #F1C2BF;
+}
+.peach{
+    background-color: #c29175;
+}
+.darker-brown{
+    background-color: #80582f;
+}
+.black{
+    background-color: black;
+}
+.white-text{
+    color: white;
+}
+.black-text{
+    color: black;
+}
+.off-pink-text{
+    color: #f7f0f5;
+}
+
+.quiz{
+
+}
+
+/* a {
+    font-family:"Yuppy TC" , sans-serif;
+    color: lightskyblue;
+}
+a:hover{
+    color: deepskyblue;
+}
+a:visited {
+
+    color: darkblue;
+} */

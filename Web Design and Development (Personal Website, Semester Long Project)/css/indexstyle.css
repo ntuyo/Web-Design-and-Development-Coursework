@@ -1,0 +1,149 @@
+/* flex, and website properties */
+
+#container {
+    display: flex;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    background-color: #F1C2BF;
+    min-width: 95vw;
+    min-height: 94vh;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.moreaboutmepage{
+    display: flex;
+    flex-direction: column;
+    background-color: #F1C2BF;
+    min-width: 95vw;
+    min-height: 1150px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.favoritespage{
+    display: flex;
+    flex-direction: column;
+    background-color: #F1C2BF;
+    min-width: 95vw;
+    min-height: 2050px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top{
+    flex:1;
+}
+.bottomrowtop{
+    flex: 45;
+    display: flex;
+}
+.bottomrowbottom{
+    flex: 45;
+    display: flex;
+}
+.footer{
+    flex: 9;
+    background-color: #f7f0f5;
+    display: flex;
+    flex-direction: row;
+}
+/* top row */
+.header{
+    display: flex;
+    flex: 7;
+    flex-direction: row;
+}
+/* nav bar */
+.navbarlogo{
+    display: flex;
+    flex: 0;
+    alignment: left;
+}
+.navbutton{
+    display: flex;
+    flex: 9;
+}
+.navdivider{
+    display: flex;
+    flex: 0.05;
+}
+.lowernavdivider{
+    display: flex;
+    flex: 0.5;
+}
+/* bottom row */
+
+.bottomrowtop{
+    flex: 50;
+    display: flex;
+    flex-direction: row;
+}
+.bottomrowtopbigbox{
+    display: flex;
+    flex-direction: column;
+    flex:75;
+}
+.bottomrowtopsmallerbox{
+    display: flex;
+    flex-direction: column;
+    flex: 25;
+}
+.bottomrowbottom{
+    display:flex;
+    flex-direction: column;
+    flex:50;
+}
+.bottomrowbottom-favorites{
+    display:flex;
+    flex-direction: row;
+    flex:50;
+}
+.bottomrowbottom-allaboutme{
+    display:flex;
+    flex-direction: row;
+    flex:50;
+}
+.bottomrowbottombox{
+    display:flex;
+    flex: 50;
+}
+.bottomrowtopdivider{
+    display: flex;
+    flex: 2;
+}
+.bottomrowbottomdivider{
+    display: flex;
+    flex: 1;
+}
+.paragraph{
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    flex-direction: row;
+}
+
+.header-text{
+    font-family: 'Raleway', sans-serif;
+    flex-direction: row;
+    font-size: 22px;
+}
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.img-responsive {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+}
+
+.navsection{
+
+}

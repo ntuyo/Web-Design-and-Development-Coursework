@@ -1,0 +1,117 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+}
+#container {
+    display: flex;
+}
+.flexpainting
+{
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    width: 400px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 0px #8d8d8d;
+}
+.toprow{
+    flex: 72.5;
+    display: flex;
+}
+.middlerow{
+    flex: 2.5;
+}
+.bottomrow{
+    flex:25;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.pastelpink{
+    background-color: #e1afb4;
+}
+.black{
+    background-color: black;
+}
+.neon{
+    background-color: magenta;
+}
+. pink{
+    background-color: #ffdaf0;
+}
+.purple{
+    background-color: #F2B8FF;
+}
+.t_l_column{
+    flex:25;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.t_c_divider{
+    flex:2.5;
+}
+.t_ldivider{
+    flex: 2.5;
+}
+.t_bigbox{
+    flex: 72.5;
+}
+.t_mediumbox{
+  flex: 25;
+}
+.b_l{
+    flex: 25;
+    display: flex;
+    flex-direction: row;
+}
+.b_l_box{
+    flex:25;
+}
+.b_l_divider{
+    flex: 2.5;
+}
+.b_m_box{
+    flex:64.5;
+    display: flex;
+    flex-direction: column;
+}
+.b_r_child1{
+    flex:2.5;
+}
+
+.b_c_divider{
+    flex: .5;
+}
+.b_r_column{
+    flex: 7;
+    display: flex;
+    flex-direction:column;
+}

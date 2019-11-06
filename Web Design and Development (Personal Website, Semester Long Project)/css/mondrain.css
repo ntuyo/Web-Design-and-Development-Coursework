@@ -1,0 +1,85 @@
+#painting {
+    background-color: aquamarine;
+    width: 400px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 0px #8d8d8d;
+}
+#toprow {
+    height: 290px;
+}
+#bigbox {
+    width: 290px;
+    height: 290px;
+}
+.pastelpink{
+    background-color: #e1afb4;
+}
+.black{
+    background-color: black;
+}
+.neon{
+    background-color: magenta;
+}
+.pink{
+    background-color: #ffdaf0;
+}
+.purple{
+    background-color: #F2B8FF ;
+}
+.right {
+    float: right;
+}
+#toprowdivider{
+    height: 290px;
+    width: 10px;
+}
+.mediumbox {
+    height: 140px;
+    width: 100px;
+
+}
+
+#topleftcolumndivider{
+    height: 10px;
+    width: 100px;
+}
+
+.smallbox{
+    height: 45px;
+    width: 20px;
+}
+#middlerow{
+    height: 10px;
+}
+#bottomrightcolumndivider{
+    height: 10px;
+    width: 20px;
+}
+#middlerowdivider{
+    height:10px;
+    width:400px;
+}
+#longbox{
+    height: 100px;
+    width:260px;
+}
+#squarebox{
+    height: 100px;
+    width: 100px;
+}
+.bottomrowdivider{
+    height: 100px;
+    width: 10px;
+    background-color: black;
+    float: right;
+}
+#divider2duplicatedagain {
+    height: 100px;
+    width: 10px;
+}
+.left{
+    float: left;
+}

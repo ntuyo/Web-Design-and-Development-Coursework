@@ -1,0 +1,100 @@
+#container {
+    display: flex;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    background-color: #D7CEC7;
+    min-width: 96vw;
+    min-height: 94vh;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grain{
+    background-color: #D7CEC7;
+
+}
+.blackboard{
+    background-color:#565656;
+
+}
+.oxblood{
+    background-color:#76323F;
+
+}
+.tan{
+    background-color:#C09F80;
+}
+.black{
+    background-color:#000000;
+}
+.white{
+    background-color:#FFFFFF;
+}
+
+.top{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.middle{
+    display: flex;
+    flex: 14;
+}
+.bottom{
+    display: flex;
+    flex: 63.5;
+    flex-direction: row;
+}
+.header{
+    display: flex;
+    flex: 5.5;
+    flex-direction: column;
+}
+.navbar{
+    display: flex;
+    flex: 7;
+}
+.footer{
+    display: flex;
+    flex: 9;
+}
+/* top bar */
+.navbutton{
+    display: flex;
+    flex: 9;
+}
+.navdivider{
+    display: flex;
+    flex: 0.05;
+}
+.lowernavdivider{
+    display: flex;
+    flex: 1;
+}
+/* middle picture */
+.picture{
+    display: flex;
+    flex: 5;
+}
+.picturedivider{
+    display: flex;
+    flex: 1;
+}
+
+/*bottom buttons*/
+.bottombutton{
+    display: flex;
+    flex: 10;
+    flex-direction: column;
+}
+.bottombuttoncolumn{
+    display: flex;
+    flex: 10;
+    flex-direction: row;
+}
+.buttondivider{
+    display: flex;
+    flex: 0.25;
+}
